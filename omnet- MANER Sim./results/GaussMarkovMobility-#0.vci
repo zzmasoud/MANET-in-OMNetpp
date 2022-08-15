@@ -1,0 +1,51 @@
+file 1625 1542795863                                            
+version 2
+run GaussMarkovMobility-0-20181121-13:53:57-44628
+attr configname GaussMarkovMobility
+attr datetime 20181121-13:53:57
+attr experiment GaussMarkovMobility
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AODVNetwork
+attr processid 44628
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.numHosts 1
+param **.host*.mobility.typename "\"GaussMarkovMobility\""
+param **.host*.mobility.alpha 0.9
+param **.host*.mobility.speed 10mps
+param **.host*.mobility.angle 0deg
+param **.host*.mobility.variance 40
+param **.host*.mobility.margin 30m
+param *.numHosts 5
+param **.wlan[*].typename "\"AckingWirelessInterface\""
+param **.wlan[*].bitrate 20Mbps
+param **.wlan[*].mac.headerLength 20B
+param **.wlan[*].radio.typename "\"UnitDiskRadio\""
+param **.wlan[*].radio.transmitter.headerLength 96b
+param **.wlan[*].radio.transmitter.communicationRange 250m
+param **.wlan[*].radio.transmitter.interferenceRange 0m
+param **.wlan[*].radio.transmitter.detectionRange 0m
+param **.wlan[*].radio.receiver.ignoreInterference true
+param **.host*.mobility.cx 200m
+param **.host*.mobility.cy 200m
+param **.wlan[*].bitrate 2Mbps
+param **.wlan[*].mgmt.frameCapacity 10
+param **.wlan[*].mac.retryLimit 7
+param **.hasStatus true
+
+vector 0 AODVNetwork.host[0].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 1 AODVNetwork.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+0	1608 8 0 0 0 0 1 0 0 0 0
+1	1616 8 0 0 0 0 1 0 0 0 0
+

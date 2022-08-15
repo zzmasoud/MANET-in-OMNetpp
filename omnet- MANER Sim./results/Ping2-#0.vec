@@ -1,0 +1,25 @@
+version 2
+run Ping2-0-20181121-12:24:29-42718
+attr configname Ping2
+attr datetime 20181121-12:24:29
+attr experiment Ping2
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AODVNetwork
+attr processid 42718
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.numHosts 1
+param *.numHosts 20
+
+vector 0 AODVNetwork.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+0	0	0	0
+

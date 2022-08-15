@@ -1,0 +1,65 @@
+*I  0  0  7  lo0 <unspec>
+*I  0  0  7  lo0 127.0.0.1
+*I  0  0  7  lo0 127.0.0.1
+*I  0  0  7  lo0 127.0.0.1
+*I  0  0  7  wlan0 <unspec>
+*I  0  0  7  wlan0 <unspec>
+*I  0  0  7  wlan0 <unspec>
+*I  0  0  7  wlan0 <unspec>
+*I  0  0  8  lo0 <unspec>
+*I  0  0  8  lo0 127.0.0.1
+*I  0  0  8  lo0 127.0.0.1
+*I  0  0  8  lo0 127.0.0.1
+*I  0  0  8  wlan0 <unspec>
+*I  0  0  8  wlan0 <unspec>
+*I  0  0  8  wlan0 <unspec>
+*I  0  0  8  wlan0 <unspec>
+*I  0  0  9  lo0 <unspec>
+*I  0  0  9  lo0 127.0.0.1
+*I  0  0  9  lo0 127.0.0.1
+*I  0  0  9  lo0 127.0.0.1
+*I  0  0  9  wlan0 <unspec>
+*I  0  0  9  wlan0 <unspec>
+*I  0  0  9  wlan0 <unspec>
+*I  0  0  9  wlan0 <unspec>
+*I  0  0  10  lo0 <unspec>
+*I  0  0  10  lo0 127.0.0.1
+*I  0  0  10  lo0 127.0.0.1
+*I  0  0  10  lo0 127.0.0.1
+*I  0  0  10  wlan0 <unspec>
+*I  0  0  10  wlan0 <unspec>
+*I  0  0  10  wlan0 <unspec>
+*I  0  0  10  wlan0 <unspec>
+*I  0  0  11  lo0 <unspec>
+*I  0  0  11  lo0 127.0.0.1
+*I  0  0  11  lo0 127.0.0.1
+*I  0  0  11  lo0 127.0.0.1
+*I  0  0  11  wlan0 <unspec>
+*I  0  0  11  wlan0 <unspec>
+*I  0  0  11  wlan0 <unspec>
+*I  0  0  11  wlan0 <unspec>
+*I  0  0  7  wlan0 145.236.0.1
+*I  0  0  7  wlan0 145.236.0.1
+*I  0  0  8  wlan0 145.236.0.2
+*I  0  0  8  wlan0 145.236.0.2
+*I  0  0  9  wlan0 145.236.0.3
+*I  0  0  9  wlan0 145.236.0.3
+*I  0  0  10  wlan0 145.236.0.4
+*I  0  0  10  wlan0 145.236.0.4
+*I  0  0  11  wlan0 145.236.0.5
+*I  0  0  11  wlan0 145.236.0.5
++R 0  0  7  <unspec>  145.236.0.0  29  <unspec>
++R 0  0  7  145.236.0.1  127.0.0.0  8  <unspec>
++R 0  0  7  145.236.0.1  145.236.0.0  16  <unspec>
++R 0  0  8  <unspec>  145.236.0.0  29  <unspec>
++R 0  0  8  145.236.0.2  127.0.0.0  8  <unspec>
++R 0  0  8  145.236.0.2  145.236.0.0  16  <unspec>
++R 0  0  9  <unspec>  145.236.0.0  29  <unspec>
++R 0  0  9  145.236.0.3  127.0.0.0  8  <unspec>
++R 0  0  9  145.236.0.3  145.236.0.0  16  <unspec>
++R 0  0  10  <unspec>  145.236.0.0  29  <unspec>
++R 0  0  10  145.236.0.4  127.0.0.0  8  <unspec>
++R 0  0  10  145.236.0.4  145.236.0.0  16  <unspec>
++R 0  0  11  <unspec>  145.236.0.0  29  <unspec>
++R 0  0  11  145.236.0.5  127.0.0.0  8  <unspec>
++R 0  0  11  145.236.0.5  145.236.0.0  16  <unspec>

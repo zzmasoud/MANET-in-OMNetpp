@@ -1,0 +1,138 @@
+file 4898 1542797395                                            
+version 2
+run General-0-20181121-14:19:49-45262
+attr configname General
+attr datetime 20181121-14:19:49
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AODVNetwork
+attr processid 45262
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.numHosts 5
+param **.wlan[*].typename "\"AckingWirelessInterface\""
+param **.wlan[*].bitrate 20Mbps
+param **.wlan[*].mac.headerLength 20B
+param **.wlan[*].radio.typename "\"UnitDiskRadio\""
+param **.wlan[*].radio.transmitter.headerLength 96b
+param **.wlan[*].radio.transmitter.communicationRange 250m
+param **.wlan[*].radio.transmitter.interferenceRange 0m
+param **.wlan[*].radio.transmitter.detectionRange 0m
+param **.wlan[*].radio.receiver.ignoreInterference true
+param **.host*.mobility.cx 200m
+param **.host*.mobility.cy 200m
+param **.wlan[*].bitrate 2Mbps
+param **.wlan[*].mgmt.frameCapacity 10
+param **.wlan[*].mac.retryLimit 7
+param **.hasStatus true
+param *.hasVisualizer true
+param *.visualizer.*.mobilityVisualizer.displayMovementTrails true
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxX 800m
+param **.constraintAreaMaxY 800m
+param **.constraintAreaMaxZ 0m
+
+vector 0 AODVNetwork.host[0].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 1 AODVNetwork.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 2 AODVNetwork.host[1].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 3 AODVNetwork.host[1].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 4 AODVNetwork.host[2].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 5 AODVNetwork.host[2].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 6 AODVNetwork.host[3].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 7 AODVNetwork.host[3].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 8 AODVNetwork.host[4].wlan[0].queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 9 AODVNetwork.host[4].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 10 AODVNetwork.host[0].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 11 AODVNetwork.host[0].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 12 AODVNetwork.host[1].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 13 AODVNetwork.host[1].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 14 AODVNetwork.host[2].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 15 AODVNetwork.host[2].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 16 AODVNetwork.host[3].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 17 AODVNetwork.host[3].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 18 AODVNetwork.host[4].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 19 AODVNetwork.host[4].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+0	4647 8 0 0 0 0 1 0 0 0 0
+1	4655 24 0 0 0 0 3 0 4 4 16
+2	4679 8 0 0 0 0 1 0 0 0 0
+3	4687 24 0 0 0 0 3 0 4 4 16
+4	4711 8 0 0 0 0 1 0 0 0 0
+5	4719 24 0 0 0 0 3 0 4 4 16
+6	4743 8 0 0 0 0 1 0 0 0 0
+7	4751 24 0 0 0 0 3 0 4 4 16
+8	4775 8 0 0 0 0 1 0 0 0 0
+9	4783 24 0 0 0 0 3 0 4 4 16
+10	4807 9 0 0 0 0 1 1 1 1 1
+11	4816 9 0 0 0 0 1 1 1 1 1
+12	4825 9 0 0 0 0 1 1 1 1 1
+13	4834 9 0 0 0 0 1 1 1 1 1
+14	4843 9 0 0 0 0 1 1 1 1 1
+15	4852 9 0 0 0 0 1 1 1 1 1
+16	4861 9 0 0 0 0 1 1 1 1 1
+17	4870 9 0 0 0 0 1 1 1 1 1
+18	4879 9 0 0 0 0 1 1 1 1 1
+19	4888 9 0 0 0 0 1 1 1 1 1
+

@@ -1,0 +1,123 @@
+file 4102 1542792563                                            
+version 2
+run hosts-10-0-20181121-12:59:08-42969
+attr configname hosts-10
+attr datetime 20181121-12:59:08
+attr experiment hosts-10
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AODVNetwork
+attr processid 42969
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.numHosts 10
+param **.host*.mobility.typename "\"BonnMotionMobility\""
+param **.host*.mobility.traceFile "\"bonnmotion_scenario.movements\""
+param **.host*.mobility.nodeId -1
+
+vector 0 AODVNetwork.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 AODVNetwork.host[1].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 2 AODVNetwork.host[2].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 AODVNetwork.host[3].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 4 AODVNetwork.host[4].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 AODVNetwork.host[5].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 6 AODVNetwork.host[6].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 7 AODVNetwork.host[7].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 8 AODVNetwork.host[8].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 9 AODVNetwork.host[9].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 10 AODVNetwork.host[0].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 11 AODVNetwork.host[1].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 12 AODVNetwork.host[2].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 13 AODVNetwork.host[3].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 14 AODVNetwork.host[4].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 15 AODVNetwork.host[5].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 16 AODVNetwork.host[6].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 17 AODVNetwork.host[7].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 18 AODVNetwork.host[8].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 19 AODVNetwork.host[9].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+0	3843 24 0 0 0 0 3 0 2 2 4
+1	3867 16 0 0 0 0 2 0 0 0 0
+2	3883 16 0 0 0 0 2 0 0 0 0
+3	3899 16 0 0 0 0 2 0 0 0 0
+4	3915 16 0 0 0 0 2 0 0 0 0
+5	3931 16 0 0 0 0 2 0 0 0 0
+6	3947 16 0 0 0 0 2 0 0 0 0
+7	3963 16 0 0 0 0 2 0 0 0 0
+8	3979 16 0 0 0 0 2 0 0 0 0
+9	3995 16 0 0 0 0 2 0 0 0 0
+10	4011 9 0 0 0 0 1 0 0 0 0
+11	4020 9 0 0 0 0 1 0 0 0 0
+12	4029 9 0 0 0 0 1 0 0 0 0
+13	4038 9 0 0 0 0 1 0 0 0 0
+14	4047 9 0 0 0 0 1 0 0 0 0
+15	4056 9 0 0 0 0 1 0 0 0 0
+16	4065 9 0 0 0 0 1 0 0 0 0
+17	4074 9 0 0 0 0 1 0 0 0 0
+18	4083 9 0 0 0 0 1 0 0 0 0
+19	4092 9 0 0 0 0 1 0 0 0 0
+
